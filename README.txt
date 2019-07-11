@@ -3,10 +3,15 @@ Ver 1.1a.
 
 
 
-This is a short note on the usage of HNHOTV-OGS paper published in the following journal:
+This is a short note on the usage of HNHOTV-OGS paper published in the following journals:
 
 -> Multidimensional Systems and Signal Processing
 -> https://link.springer.com/article/10.1007/s11045-018-0567-3
+
+and
+
+-> Signal, Image and Video Processing
+-> https://link.springer.com/article/10.1007/s11760-019-01531-3
 
 
 
@@ -18,7 +23,7 @@ Created by Tarmizi Adam on 15 March 2018. Copyright 2018 by Tarmizi Adam. Permis
 
 1. Introduction
 
--This is a simple document on how to run denoising(codes can also be used for deblurring) experiments on images corrupted with additive Gaussian noise.
+-This is a simple document on how to run denoising [1] (and deblurring [2]) experiments on images corrupted with additive Gaussian noise.
 
 2. Instructions
 
@@ -26,7 +31,7 @@ Created by Tarmizi Adam on 15 March 2018. Copyright 2018 by Tarmizi Adam. Permis
 
 To start a simple denoising demo, run the matlab script "hnhotv_ogs_Demo.m".
 
-3. Some guides
+3. Some guides (denoising)
 
 - In the paper, we tested 8 images and three noise levels. For each image and its corresponding noise levels, we manually find the best regularization parameter \lambda and \omega to ensure the best restoration quality. Then each image is denoised ten times and the average is taken.
 
@@ -53,7 +58,8 @@ butterfly2 (450 x 450):           \lambda = 0.27, \omega = 6.0.
 
 Article paper of this work is at: 
 
-https://link.springer.com/article/10.1007/s11045-018-0567-3
+[1]. https://link.springer.com/article/10.1007/s11045-018-0567-3
+[2]. https://link.springer.com/article/10.1007/s11760-019-01531-3
 
 
 If you happen to use our code, please cite the work accordingly Thank you.
